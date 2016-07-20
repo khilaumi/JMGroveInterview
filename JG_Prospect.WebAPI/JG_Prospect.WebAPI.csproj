@@ -199,12 +199,21 @@
     <Content Include="bin\fr\Microsoft.Data.Edm.resources.dll" />
     <Content Include="bin\fr\Microsoft.Data.OData.resources.dll" />
     <Content Include="bin\fr\System.Spatial.resources.dll" />
+    <Content Include="bin\Google.GData.AccessControl.dll" />
+    <Content Include="bin\Google.GData.Calendar.dll" />
+    <Content Include="bin\Google.GData.Client.dll" />
+    <Content Include="bin\Google.GData.Extensions.dll" />
+    <Content Include="bin\itextsharp.dll" />
     <Content Include="bin\it\Microsoft.Data.Edm.resources.dll" />
     <Content Include="bin\it\Microsoft.Data.OData.resources.dll" />
     <Content Include="bin\it\System.Spatial.resources.dll" />
     <Content Include="bin\ja\Microsoft.Data.Edm.resources.dll" />
     <Content Include="bin\ja\Microsoft.Data.OData.resources.dll" />
     <Content Include="bin\ja\System.Spatial.resources.dll" />
+    <Content Include="bin\JG_Prospect.BLL.dll" />
+    <Content Include="bin\JG_Prospect.Common.dll" />
+    <Content Include="bin\JG_Prospect.Common.pdb" />
+    <Content Include="bin\JG_Prospect.DAL.dll" />
     <Content Include="bin\JG_Prospect.WebAPI.dll" />
     <Content Include="bin\JG_Prospect.WebAPI.pdb" />
     <Content Include="bin\ko\Microsoft.Data.Edm.resources.dll" />
@@ -261,6 +270,7 @@
     <Content Include="bin\System.Web.WebPages.Razor.dll" />
     <Content Include="bin\System.Web.WebPages.Razor.xml" />
     <Content Include="bin\System.Web.WebPages.xml" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
     <Content Include="bin\WebGrease.dll" />
     <Content Include="bin\zh-Hans\Microsoft.Data.Edm.resources.dll" />
     <Content Include="bin\zh-Hans\Microsoft.Data.OData.resources.dll" />
@@ -337,6 +347,7 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="packages.config" />
     <Content Include="Web.config" />
+    <Content Include="bin\JG_Prospect.WebAPI.dll.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

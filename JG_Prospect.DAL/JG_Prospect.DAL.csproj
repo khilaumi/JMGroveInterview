@@ -92,6 +92,48 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\JG_Prospect.Common.dll" />
+    <Content Include="bin\Debug\JG_Prospect.Common.pdb" />
+    <Content Include="bin\Debug\JG_Prospect.DAL.dll" />
+    <Content Include="bin\Debug\JG_Prospect.DAL.pdb" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\mscorlib.dll" />
+    <Content Include="bin\Debug\Telerik.Web.UI.dll" />
+    <Content Include="bin\Release\JG_Prospect.Common.dll" />
+    <Content Include="bin\Release\JG_Prospect.Common.pdb" />
+    <Content Include="bin\Release\JG_Prospect.DAL.dll" />
+    <Content Include="bin\Release\JG_Prospect.DAL.pdb" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll" />
+    <Content Include="bin\Release\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Release\mscorlib.dll" />
+    <Content Include="bin\Release\Telerik.Web.UI.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\normidna.nlp" />
+    <None Include="bin\Debug\normnfc.nlp" />
+    <None Include="bin\Debug\normnfd.nlp" />
+    <None Include="bin\Debug\normnfkc.nlp" />
+    <None Include="bin\Debug\normnfkd.nlp" />
+    <None Include="bin\Debug\vssver.scc" />
+    <None Include="bin\Release\normidna.nlp" />
+    <None Include="bin\Release\normnfc.nlp" />
+    <None Include="bin\Release\normnfd.nlp" />
+    <None Include="bin\Release\normnfkc.nlp" />
+    <None Include="bin\Release\normnfkd.nlp" />
+    <None Include="bin\Release\vssver.scc" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -191,22 +191,38 @@
     <Content Include="AddResourcesJr.aspx" />
     <Content Include="AssignProspect.aspx" />
     <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\aspsnippets.facebookapi.dll" />
     <Content Include="bin\ASPSnippets.GoogleAPI.dll" />
     <Content Include="bin\ASPSnippets.SmsAPI.dll" />
     <Content Include="bin\ASPSnippets.TwitterAPI.dll" />
     <Content Include="bin\BarcodeLib.dll" />
     <Content Include="bin\DropDownCheckBoxes.dll" />
+    <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\GMaps.dll" />
     <Content Include="bin\Google.GData.AccessControl.dll" />
     <Content Include="bin\Google.GData.Calendar.dll" />
     <Content Include="bin\Google.GData.Client.dll" />
     <Content Include="bin\Google.GData.Extensions.dll" />
+    <Content Include="bin\GoogleMaps.LocationServices.dll" />
     <Content Include="bin\Ionic.Zip.dll" />
     <Content Include="bin\itextsharp.dll" />
+    <Content Include="bin\JG_Prospect.BLL.dll" />
+    <Content Include="bin\JG_Prospect.BLL.pdb" />
+    <Content Include="bin\JG_Prospect.Common.dll" />
+    <Content Include="bin\JG_Prospect.Common.pdb" />
+    <Content Include="bin\JG_Prospect.DAL.dll" />
+    <Content Include="bin\JG_Prospect.DAL.pdb" />
+    <Content Include="bin\JG_Prospect.dll" />
+    <Content Include="bin\JG_Prospect.pdb" />
+    <Content Include="bin\JG_Prospect.WebAPI.dll" />
+    <Content Include="bin\JG_Prospect.WebAPI.pdb" />
+    <Content Include="bin\Microsoft.Data.Edm.dll" />
+    <Content Include="bin\Microsoft.Data.OData.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
     <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
@@ -215,7 +231,32 @@
     <Content Include="bin\Microsoft.Practices.ServiceLocation.dll" />
     <Content Include="bin\Microsoft.Practices.Unity.dll" />
     <Content Include="bin\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Microsoft.Web.Mvc.FixedDisplayModes.dll" />
+    <Content Include="bin\msvcp120.dll" />
+    <Content Include="bin\msvcr120.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\NReco.PdfGenerator.dll" />
+    <Content Include="bin\NReco.PdfGenerator.xml" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Spatial.dll" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.OData.dll" />
+    <Content Include="bin\System.Web.Http.Tracing.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Optimization.dll" />
+    <Content Include="bin\System.Web.Providers.dll" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.dll" />
     <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\WebGrease.dll" />
+    <Content Include="bin\wkhtmltoimage.exe" />
+    <Content Include="bin\wkhtmltopdf.exe" />
     <Content Include="calendar\calendar.aspx" />
     <Content Include="calendar\calvis.js" />
     <Content Include="calendar\close.gif" />
@@ -756,6 +797,7 @@
     </Compile>
     <Compile Include="Employment_Redirect.aspx.cs">
       <DependentUpon>Employment_Redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employment_Redirect.aspx.designer.cs">
       <DependentUpon>Employment_Redirect.aspx</DependentUpon>
@@ -842,6 +884,7 @@
     <Compile Include="project.net\App_Code\ImproperCalendarEvent.cs" />
     <Compile Include="project.net\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Services\service.aspx.cs">
       <DependentUpon>service.aspx</DependentUpon>
@@ -1035,6 +1078,7 @@
     </Compile>
     <Compile Include="Sr_App\Inventory.aspx.cs">
       <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Sr_App\Inventory.aspx.designer.cs">
       <DependentUpon>Inventory.aspx</DependentUpon>
@@ -1055,6 +1099,7 @@
     </Compile>
     <Compile Include="Sr_App\OverheadExp.aspx.cs">
       <DependentUpon>OverheadExp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Sr_App\OverheadExp.aspx.designer.cs">
       <DependentUpon>OverheadExp.aspx</DependentUpon>
@@ -1467,6 +1512,8 @@
     <Content Include="App_Browsers\BrowserFile.browser" />
     <Content Include="css\dropzone\css\stylus\basic.styl" />
     <Content Include="css\dropzone\css\stylus\dropzone.styl" />
+    <Content Include="bin\AjaxControlToolkit.dll.refresh" />
+    <Content Include="bin\JG_Prospect.dll.config" />
     <None Include="css\notes\screen.css.mno" />
     <Content Include="fonts\barcodefont-webfont.eot" />
     <Content Include="fonts\barcodefont-webfont.ttf" />
